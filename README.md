@@ -1,2 +1,2 @@
 # website-demo
-by - gajera parth
+by - Parth
