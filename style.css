@@ -1,76 +1,65 @@
-body{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-.topnav{
-    overflow: hidden;
-    background-color: #333;
-
-}
-.topnav a{
+.leftside{
+    background-color: #00203FFF;
     float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-.topnav a:hover{
-    background-color:#ddd ;
-    color: black;
-}
-.topnav a:active{
-    background-color: black;
-    color: gray;
-}
-.home{
-    height: 100vh;
-    width: 100%;
-    background: url(photo.jpg)no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-.home .home-content{
-    height: 100%;
-    width: 90%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.home .text .text-one{
-    font-size: 25px;
-
-}
-.home .text .text-two{
-    font-size: 75px;
-    font-weight: 600px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: -3px;
-
-}
-.home .text .text-three{
-    font-size: 40px;
-
-}
-.home .text .text-four{
-    font-size: 23px;
-    margin-left: 5px 0 ;
-}
-section{
-    display: blod;
-}
-button{
-    margin: 10px;
-    width: 100px;
-    background-color: white;
-    font-size: 20px;
-    border-radius: 5px;
-    transition: all 0.4 ease;
+    width: 20%;
     
 }
 
+ul a{
+    color: white;
+    font-size: x-large;
+}
 
+.rightside{
+    background-color: #ADEFD1FF;
+    float: right;
+    width: 80%;
+}
+body{
+    margin: 0%;
+}
+.name{
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 25px;
+    transform:translateX(-2%) ;
+    padding: 10px;
+    background-size: 100px 200px;
+
+}
+img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    border-style:double;
+    
+}
+header{
+    transform:translateX(25%);
+
+}
+.ab{
+    font-weight: 900;
+}
+.a{
+    color: grey;
+}
+.b{
+    color: grey;
+}
+
+.right1{
+    color: black;
+    position: relative;
+    transform: translateY(500px);
+    
+
+    
+}
+   
+.right2{
+    color: grey;
+   position: relative;
+   transform: translateY(500px);
+
+}
