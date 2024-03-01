@@ -1,25 +1,26 @@
 body{
-    background-color: #abd3c9;
+    background-color: #7EBFB3;
     margin: 0%;
 }
 
 .navbar{
     overflow: hidden;
-    background-color:#333;
+    
 }
 
 .navbar a{
     float: right ;
-    color: #f2f2f2;
+    color: #4F7369;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
     transform: translateY(20px);
+    transform: translateX(-400px);
 }
 .navbar h3{
     float: left;
-    color: #f2f2f2;
+    color: #4F7369;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -27,15 +28,25 @@ body{
     text-decoration: underline;
     font-family: cursive;
     font-size: larger;
+    font-weight: bolder;
+}
+.navbar button{
+    color: BLACK;
+    background-color: #EBF2F1;
+    border-radius: 100px;
+    border-color: black;
+    border-width:10m;
+    font-size: larger;
+   
 }
 
 .navbar a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #194759;
+    color: white;
 }
   
 .navbar a.active {
-    background-color: #04AA6D;
+    background-color: #194759;
     color: white;
 }
   
