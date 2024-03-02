@@ -1,36 +1,26 @@
 body{
-    background-color: #7EBFB3;
-    margin: 0%;
+    background-color: #013328;
+    margin: auto;
+    padding: auto;
 }
-
 .navbar{
     overflow: hidden;
     
 }
 
 .navbar a{
-    float: right ;
-    color: #4F7369;
-    text-align: center;
+    float: left;
+    color: white;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
-    transform: translateY(20px);
-    transform: translateX(-400px);
+
 }
-.navbar h3{
-    float: left;
-    color: #4F7369;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 15px;
-    text-decoration: underline;
-    font-family: cursive;
-    font-size: larger;
-    font-weight: bolder;
-}
+
 .navbar button{
+    position: relative;
+    top: 20px;
+    left: 619px; 
     color: BLACK;
     background-color: #EBF2F1;
     border-radius: 100px;
@@ -39,14 +29,63 @@ body{
     font-size: larger;
    
 }
+.navbar button:hover{
+        background-color: red;
+        color: white;
+}
 
 .navbar a:hover {
-    background-color: #194759;
+    background-color: red;
     color: white;
 }
   
 .navbar a.active {
-    background-color: #194759;
+    background-color: grey;
     color: white;
 }
-  
+
+.body1{
+    color:white;
+    position: relative;
+    top: 20px;
+    left: 250px;
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 150%;
+
+}
+.body1 button{
+    font-size: 80%;
+    color: black;
+    background-color: white;
+    border-width: 0.cm;
+}
+.body1 button:hover {
+    background-color: green;
+    color: white;
+}
+.para{
+    border: #EBF2F1;
+    border: 4px solid pink;
+    transform: translateY(15px);
+}
+.para .para1 p{
+    color: white;
+    text-align: left;
+    transform: translateY(132px);
+
+}
+.para .para2 p{
+    color: white;
+    text-align: center;
+    transform: translateY(1x);
+    
+}
+.para .para3{
+    color: white;
+    text-align: right;
+    width: 100%;
+    transform: translateY(-239px);
+}
+
+
